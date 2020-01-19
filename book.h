@@ -1,4 +1,8 @@
-//begin book.h
+/* 
+Created: Viraat Udar
+Description: This file defines the "Book" class to contain variables that include one "Person" who has borrowed the book.
+
+*/
 #ifndef BOOK_H
 #define BOOK_H
 
@@ -23,4 +27,4 @@ public:
     void     setPersonPtr(Person * ptr);
     Person * getPersonPtr();
 };
-#endif // end book.h
+#endif 

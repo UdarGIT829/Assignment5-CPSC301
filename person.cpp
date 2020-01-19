@@ -1,7 +1,12 @@
+/* 
+Created: Viraat Udar
+Description: This file delineates helper functions that provide access to private variables that 
+    would belong to objects of the type "Person"
+
+*/
 #include "person.h"
 
 Person::Person(int cardNo, bool act, string fName, string lName) {
-    // complete constructor
     firstName = fName;
     lastName = lName;
     cardID = cardNo;
@@ -9,27 +14,27 @@ Person::Person(int cardNo, bool act, string fName, string lName) {
 }
 
 string Person::getFirstName() {
-    return firstName; // complete
+    return firstName; 
 }
 
 string Person::getLastName() {
-    return lastName; // complete
+    return lastName; 
 }
 
 int Person::getId() {
-    return cardID; // complete
+    return cardID; 
 }
 
 void Person::setActive(bool act) {
     active = act;
     return;
-} // complete
+} 
 
 bool Person::isActive() {
-    return active; // complete
+    return active; 
 }
 
 string Person::fullName() {
     string fuName = firstName + " " + lastName;
-    return fuName; // complete
+    return fuName; 
 }

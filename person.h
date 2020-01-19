@@ -1,4 +1,8 @@
-//begin person.h
+/* 
+Created: Viraat Udar
+Description: This file defines the "Person" class to be used to categorize information about library customers.
+
+*/
 #ifndef PERSON_H
 #define PERSON_H
 
@@ -23,4 +27,4 @@ public:
 	bool   isActive();
     string fullName();
 };
-#endif // end person.h
+#endif
